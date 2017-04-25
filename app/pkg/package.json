@@ -1,0 +1,23 @@
+{
+  "name": "angular-weather",
+  "version": "0.0.1",
+  "description": "An AngularJS app that consumes Open Weather Map Data",
+  "author": {
+    "name": "Patrick Dobson",
+    "url": "downpatproductions.com"
+  },
+  "engines": {
+    "node": "6.9.4"
+  },
+  "scripts": {
+    "unit-test": "tape tests/unit/*.js",
+    "int-test": "tape tests/integration/*.js",
+    "func-test": "tape tests/functional/*.js"
+  },
+  "devDependencies": {
+    "tape": "4.6.3",
+    "jquery": "3.1.1",
+    "jsdom": "9.9.0",
+    "request": "2.79.0"
+  }
+}
